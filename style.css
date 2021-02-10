@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Roboto:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Roboto:ital@1&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Merienda:wght@700&family=Roboto:ital@1&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital@1&family=Bungee+Inline&family=Merienda:wght@700&family=Roboto:ital@1&family=Staatliches&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+}
+
+title {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.fluid-1 {
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.heading h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.list ul li {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.welcome .row {
+  height: 400px;
+}
+
+.intro {
+  font-family: "Roboto", sans-serif;
+}
+
+.intro h1 {
+  font-family: "Merienda", cursive;
+}
+
+.img img {
+  height: 350px;
+  width: 550px;
+}
+
+.fluid-2 {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.fluid-2 .tech {
+  padding-top: 50px;
+}
+
+.tech-heading {
+  font-family: "Bungee Inline", cursive;
+  letter-spacing: 1px;
+}
+
+.expressJs img {
+  padding-top: 40px;
+  width: 300px;
+  filter: invert(1);
+}
+
+.project-heading {
+  font-family: "Bungee Inline", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+.project-1,
+.project-2 {
+  height: 100px;
+  background-color: darkcyan;
+  border-radius: 6px;
+}
+
+.project-title {
+  width: 200px;
+  margin: 30px auto;
+}
+
+.project-title a {
+  font-size: xx-large;
+  text-decoration: none;
+  color: blanchedalmond;
+  font-family: "Averia Serif Libre", cursive;
+}
+
+.aboutMe-heading {
+  font-family: "Bungee Inline", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+.linkedIn,
+.gitHub {
+  height: 100px;
+  background-color: rosybrown;
+  border-radius: 6px;
+}
+
+.linkedIn a,
+.gitHub a {
+  display: block;
+  font-size: xx-large;
+  text-decoration: none;
+  color: white;
+  font-family: "Averia Serif Libre", cursive;
+  width: 200px;
+  margin: 30px auto;
+}
